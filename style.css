@@ -150,7 +150,7 @@ nav .fas{
         box-sizing: border-box;
     }
 
-    course-col:hover{
+    .course-col:hover{
         box-shadow: 0 0 2rem 0 rgba(0,0,0,0.2);
     }
 
@@ -241,7 +241,7 @@ nav .fas{
     .testimonials{
         width: 100%;
         margin: auto;
-        padding: 10rem 0 0 0;
+        padding: 5rem 0 0 0;
         text-align: center;
     }
 
@@ -258,11 +258,64 @@ nav .fas{
 
     .testimonials-col img{
         height: 4rem;
-        margin: 0 .5rem 0 .3rem;
+        margin: 0 .5rem 0 3rem;
         border-radius: 50%;
     }
 
-   
+    .testimonials-col p{
+        padding: 0;
+        text-align: justify;
+    }
+
+    .testimonials-col h3{
+        text-align: left;
+    }
+
+    .testimonials-col .fas{
+        color: #f44336;
+    }
+
+    .cta{
+        margin: 10rem auto;
+        width: 80%;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner2.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 1rem;
+        text-align: center;
+        padding: 10rem 0;
+    }
+
+    .cta h1{
+        color: #fff;
+        margin: 0 0 4rem 0;
+        padding: 0;
+    }
+
+    /*----------- footer----------- */
+
+    .footer{
+        width: 100%;
+        text-align: center;
+        padding: .3rem 0;
+    }
+
+    .footer h4{
+        margin: 2rem 0 2.5rem 0;
+        font-weight: 600;
+    }
+
+    .icons .fab{
+        color: #f44336;
+        margin: 0 1.3rem;
+        cursor: pointer;
+        padding: 1.8rem 0;
+    }
+
+    .fa-heart{
+        color: #f44336;
+    }
+
     @media(max-width: 70em) {
         .text-box h1{
             font-size: 2rem;
@@ -308,4 +361,16 @@ nav .fas{
         .row{
             flex-direction: column;
         }
+
+        .testimonials-col img{
+    
+            margin: 0 .5rem 0 0;
+            
+        }
+
+        .cta h1{
+            font-size: 2.4rem;
+        }
+
+
     }
